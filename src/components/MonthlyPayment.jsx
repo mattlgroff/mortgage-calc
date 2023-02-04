@@ -87,7 +87,7 @@ const MonthlyPayment = ({
 
                 {pmi > 0 &&
                     <div className="monthly-payment-breakdown-item">
-                        <div className="monthly-payment-breakdown-item-label">PMI 0.58%</div>
+                        <div className="monthly-payment-breakdown-item-label">PMI</div>
                         <div className="monthly-payment-breakdown-item-value">${pmi}</div>
                     </div>
                 }
