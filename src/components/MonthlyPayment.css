@@ -1,0 +1,42 @@
+.monthly-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.monthly-payment-breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.monthly-payment-breakdown-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.monthly-payment-breakdown-item-label {
+    font-weight: 600;
+}
+
+.monthly-payment-breakdown-item-value {
+    font-weight: 400;
+}
