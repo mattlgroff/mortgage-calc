@@ -1,6 +1,6 @@
 ## Mortgage Affordability Calculator
 
-Inspired by [Ramsey's Florida Mortgage Calculator](https://www.ramseysolutions.com/real-estate/florida-mortgage-calculator) but the focus is keeping the total monthly payment under 25% of your monthly after-tax take-home pay.
+Inspired by [Ramsey's Florida Mortgage Calculator](https://www.ramseysolutions.com/real-estate/florida-mortgage-calculator) but the focus is keeping the total monthly payment under 30% of your monthly after-tax take-home pay.
 
 It'll store your values in the browser's local storage so that when you return the last values you selected will still be there.
 
