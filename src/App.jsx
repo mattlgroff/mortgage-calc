@@ -130,7 +130,7 @@ function App() {
 
       <div className="input-group">
         <label htmlFor="take-home-pay">
-          Monthly Take Home Pay (Gross, before tax)
+          Monthly Take Home Pay (Net, after tax)
         </label>
         <input
           type="number"
@@ -226,7 +226,7 @@ function App() {
         Your monthly payment should not exceed{" "}
         <strong>${monthlyPaymentShouldBeAtOrBelow}</strong>
       </h2>
-      <p>That's 30% of your gross take home pay</p>
+      <p>That's 30% of your net take home pay</p>
 
       <h2>Monthly Payment</h2>
       <MonthlyPayment

@@ -71,6 +71,7 @@ const MonthlyPayment = ({
   return (
     <div className="monthly-payment">
       <h3
+        data-testid="total-monthly-cost"
         style={{
           color: isMonthlyPaymentAtOrBelow ? "green" : "red",
         }}
@@ -92,7 +93,10 @@ const MonthlyPayment = ({
           <div className="monthly-payment-breakdown-item-label">
             Principal & Interest
           </div>
-          <div className="monthly-payment-breakdown-item-value">
+          <div
+            data-testid="principal-interest-payment"
+            className="monthly-payment-breakdown-item-value"
+          >
             ${principalInterestPayment}
           </div>
         </div>
