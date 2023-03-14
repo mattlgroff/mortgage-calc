@@ -222,6 +222,12 @@ function App() {
         />
       </div>
 
+      <h2>Down Payment + Closing Cost</h2>
+      <DownPaymentAndClosingCost
+        housePrice={housePrice}
+        percentDown={percentDown}
+      />
+
       <h2>
         Your monthly payment should not exceed{" "}
         <strong>${monthlyPaymentShouldBeAtOrBelow}</strong>
@@ -239,12 +245,6 @@ function App() {
         interestRate={interestRate}
         monthlyPaymentShouldBeAtOrBelow={monthlyPaymentShouldBeAtOrBelow}
         hasPmiUnder20Down={hasPmiUnder20Down}
-      />
-
-      <h2>Down Payment + Closing Cost</h2>
-      <DownPaymentAndClosingCost
-        housePrice={housePrice}
-        percentDown={percentDown}
       />
     </div>
   );
